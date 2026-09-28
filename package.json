@@ -1,0 +1,21 @@
+{
+  "name": "aurora-mobile",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Aurora App: Sovereign Clarity & Urban Safety — Mobile Client for Android and Samsung Galaxy (React Native / Expo)",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "bun --cwd apps/mobile start",
+    "android": "bun --cwd apps/mobile android",
+    "typecheck": "bun --cwd packages/domain typecheck && bun --cwd apps/mobile typecheck",
+    "build": "bun --cwd apps/mobile build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "~6.0.3"
+  }
+}

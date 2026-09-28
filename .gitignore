@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing and builds
+dist/
+build/
+.expo/
+*.log
+
+# Android Native Build artifacts
+apps/mobile/android/.gradle/
+apps/mobile/android/build/
+apps/mobile/android/app/build/
+apps/mobile/android/app/.cxx/
+apps/mobile/android/.idea/
+
+# Large release binary files (hosted on GitHub Releases, not git tree)
+releases/*.apk
+releases/*.aab
+*.apk
+*.aab
+
+# Environment & OS
+.env.local
+.DS_Store
+Thumbs.db
