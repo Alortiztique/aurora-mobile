@@ -1,8 +1,10 @@
 # Aurora App: Sovereign Clarity & Urban Safety 🌌
-> **An open-source mobile sanctuary restoring human attention and pedestrian trust.**  
+> **An open-source cross-platform (iOS, iPadOS & Android) mobile sanctuary restoring human attention and pedestrian trust.**  
 > Official Submission for **RevenueCat Shipaton 2026** (Next Gen Award Track).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![iOS / iPadOS](https://img.shields.io/badge/iOS%20%2F%20iPadOS-Native-000000?logo=apple&logoColor=white)](https://apple.com)
+[![Android](https://img.shields.io/badge/Android-Native%20%26%20Galaxy-34A853?logo=android&logoColor=white)](https://android.com)
 [![React Native](https://img.shields.io/badge/React%20Native-0.86-61DAFB?logo=react&logoColor=black)](https://reactnative.dev)
 [![Expo](https://img.shields.io/badge/Expo-SDK%2057-000020?logo=expo&logoColor=white)](https://expo.dev)
 [![RevenueCat](https://img.shields.io/badge/RevenueCat-v8%20SDK-FF4800?logo=revenuecat&logoColor=white)](https://www.revenuecat.com)
@@ -25,7 +27,8 @@
 
 ## 📱 Quick Links for Judges & Evaluators
 
-* 📥 **[Download Signed Production APK (v1.0.0)](https://github.com/Alortiztique/aurora-mobile/releases/download/v1.0.0/app-release.apk)** *(Directly installable on Android devices or emulators)*
+* 📥 **[Download Signed Production APK (v1.0.0)](https://github.com/Alortiztique/aurora-mobile/releases/download/v1.0.0/app-release.apk)** *(Directly installable on Android devices or emulators for instant zero-friction evaluation)*
+* 🍏 **Cross-Platform Support (iOS, iPadOS & Android)**: Aurora App is built on a unified React Native 0.86 & Expo SDK 57 architecture with 100% design and feature parity. The exact same open-source codebase powers both Apple iOS/iPadOS (StoreKit 2 via RevenueCat, iOS system haptics) and Android / Samsung Galaxy.
 * 🎥 **[Official Demo Video on YouTube](https://youtu.be/epu4E9ibVWM)** *(Walkthrough, live mobile demonstration & digital sovereignty manifesto)*
 * 🌐 **Live Web Platform**: [https://miaurora.app](https://miaurora.app)
 * 🐙 **Public Open-Source Repository**: [https://github.com/Alortiztique/aurora-mobile](https://github.com/Alortiztique/aurora-mobile)
@@ -85,10 +88,10 @@ Integrated with the latest `react-native-purchases` and `react-native-purchases-
 * **Pioneer Founder Pass**: $39.99 (one-time lifetime benefactor)
 * **Judge Code Bypass**: `SHIPATON2026` / `AURORA-JUDGE`
 
-### 6. Samsung Galaxy Ecosystem Optimization
-* **Responsive Foldable Layouts**: Constrained 680px ergonomic containers prevent control dispersion on the unfolded inner display of Samsung Galaxy Z Fold and Galaxy Tab tablets.
-* **Samsung Multi-Window & Pop-Up View**: Full support for split-screen multi-tasking alongside navigation or browser apps.
-* **Continuity**: Seamless orientation and flex-mode continuity without restarting state.
+### 6. Universal Multiplatform Parity (iOS, iPadOS & Android)
+* **Native iOS & Apple Ecosystem**: Designed in strict alignment with Apple Human Interface Guidelines and dynamic typography. Full native support for Apple StoreKit 2 via RevenueCat (`react-native-purchases`), iOS system haptics (`UIImpactFeedbackGenerator`), safe-area insets, and iPadOS responsive layouts.
+* **Samsung Galaxy & Foldable Optimization**: Constrained 680px ergonomic containers prevent control dispersion on the unfolded inner display of Samsung Galaxy Z Fold and Galaxy Tab tablets. Full support for Samsung Multi-Window & Pop-Up View alongside navigation or browser apps.
+* **100% Shared Core Logic**: Domain models, recovery milestone state machines, Box Breathing haptic pacing, and privacy-quantized map projections are 100% shared across all mobile surfaces.
 
 ---
 
@@ -151,6 +154,7 @@ aurora-mobile/
    Create `apps/mobile/.env` with your public keys:
    ```env
    EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY=goog_xxxx_your_key_here
+   EXPO_PUBLIC_REVENUECAT_IOS_API_KEY=appl_xxxx_your_key_here
    EXPO_PUBLIC_ONESIGNAL_APP_ID=your_onesignal_app_id_here
    EXPO_PUBLIC_MAPBOX_ACCESS_TOKEN=pk.your_mapbox_token_here
    EXPO_PUBLIC_API_URL=https://api.miaurora.app
@@ -162,9 +166,13 @@ aurora-mobile/
    # or: bun --cwd apps/mobile start
    ```
 
-5. Run on Android Device / Emulator:
+5. Launch on Target Platform:
    ```bash
+   # Run on Android Device / Emulator:
    bun --cwd apps/mobile android
+
+   # Run on iOS Simulator (macOS):
+   bun --cwd apps/mobile ios
    ```
 
 ---

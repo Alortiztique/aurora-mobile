@@ -9,8 +9,11 @@ let oneSignalConfigured = false;
 const notificationPreferenceKey = "aurora.notifications.enabled";
 
 export async function configureRevenueCat(): Promise<"ready" | "missing_key" | "unsupported"> {
-  if (Platform.OS !== "android") return "unsupported";
-  const apiKey = process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY;
+  if (Platform.OS !== "android" && Platform.OS !== "ios") return "unsupported";
+  const apiKey =
+    Platform.OS === "ios"
+      ? process.env.EXPO_PUBLIC_REVENUECAT_IOS_API_KEY || process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY
+      : process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY;
   if (!apiKey) return "missing_key";
   if (!purchasesConfigured) {
     if (__DEV__) Purchases.setLogLevel(LOG_LEVEL.DEBUG);
