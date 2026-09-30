@@ -15,7 +15,9 @@
     "build": "bun --cwd apps/mobile build"
   },
   "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@types/node": "^26.6.3",
+    "sharp": "^0.35.5",
     "typescript": "~6.0.3"
   }
 }

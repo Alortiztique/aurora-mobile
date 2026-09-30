@@ -21,8 +21,11 @@ releases/*.apk
 releases/*.aab
 *.apk
 *.aab
+*.mp4
+temp-video-frames/
 
 # Environment & OS
 .env.local
 .DS_Store
 Thumbs.db
+

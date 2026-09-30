@@ -25,9 +25,12 @@
 
 ## 📱 Quick Links for Judges & Evaluators
 
-* 📥 **[Download Signed Production APK (v1.0.0)](https://github.com/Alortiztique/aurora-mobile/releases/download/v1.0.0/app-release.apk)** *(Ready to install directly on Android phones or emulators)*
-* 🎥 **[Demo Video on YouTube](https://youtu.be/)** *(Concise walkthrough under 2 minutes)*
+* 📥 **[Download Signed Production APK (v1.0.0)](https://github.com/Alortiztique/aurora-mobile/releases/download/v1.0.0/app-release.apk)** *(Directly installable on Android devices or emulators)*
+* 🎥 **[Official Demo Video on YouTube](https://youtu.be/epu4E9ibVWM)** *(Walkthrough, live mobile demonstration & digital sovereignty manifesto)*
 * 🌐 **Live Web Platform**: [https://miaurora.app](https://miaurora.app)
+* 🐙 **Public Open-Source Repository**: [https://github.com/Alortiztique/aurora-mobile](https://github.com/Alortiztique/aurora-mobile)
+
+[![Watch Aurora App on YouTube](https://img.youtube.com/vi/epu4E9ibVWM/maxresdefault.jpg)](https://youtu.be/epu4E9ibVWM)
 
 ### 🔑 In-App Judge Access Code (Free Lifetime Unlock)
 Judges can evaluate all Guardian and Pioneer capabilities without entering a credit card or billing credentials:
@@ -86,6 +89,14 @@ Integrated with the latest `react-native-purchases` and `react-native-purchases-
 * **Responsive Foldable Layouts**: Constrained 680px ergonomic containers prevent control dispersion on the unfolded inner display of Samsung Galaxy Z Fold and Galaxy Tab tablets.
 * **Samsung Multi-Window & Pop-Up View**: Full support for split-screen multi-tasking alongside navigation or browser apps.
 * **Continuity**: Seamless orientation and flex-mode continuity without restarting state.
+
+---
+
+## 📸 App Interface Showcase
+
+| 1. Neural Clarity & Recovery | 2. Somatosensory Urge Shield | 3. Collective Urban Map | 4. RevenueCat Patron Paywall |
+| :---: | :---: | :---: | :---: |
+| <img src="store-assets/screenshot-1-clarity-en-1179x2556.png" width="200" alt="Clarity" /> | <img src="store-assets/screenshot-2-shield-en-1179x2556.png" width="200" alt="Shield" /> | <img src="store-assets/screenshot-3-map-en-1179x2556.png" width="200" alt="Map" /> | <img src="store-assets/screenshot-4-patron-en-1179x2556.png" width="200" alt="Paywall" /> |
 
 ---
 
