@@ -29,11 +29,11 @@
 
 * 📥 **[Download Signed Production APK (v1.0.0)](https://github.com/Alortiztique/aurora-mobile/releases/download/v1.0.0/app-release.apk)** *(Directly installable on Android devices or emulators for instant zero-friction evaluation)*
 * 🍏 **Cross-Platform Support (iOS, iPadOS & Android)**: Aurora App is built on a unified React Native 0.86 & Expo SDK 57 architecture with 100% design and feature parity. The exact same open-source codebase powers both Apple iOS/iPadOS (StoreKit 2 via RevenueCat, iOS system haptics) and Android / Samsung Galaxy.
-* 🎥 **[Official Demo Video on YouTube](https://youtu.be/epu4E9ibVWM)** *(Walkthrough, live mobile demonstration & digital sovereignty manifesto)*
+* 🎥 **[Official Demo Video on Vimeo](https://vimeo.com/1231786894)** *(Walkthrough, live mobile demonstration & digital sovereignty manifesto)*
 * 🌐 **Live Web Platform**: [https://miaurora.app](https://miaurora.app)
 * 🐙 **Public Open-Source Repository**: [https://github.com/Alortiztique/aurora-mobile](https://github.com/Alortiztique/aurora-mobile)
 
-[![Watch Aurora App on YouTube](https://img.youtube.com/vi/epu4E9ibVWM/maxresdefault.jpg)](https://youtu.be/epu4E9ibVWM)
+[![Watch Aurora App Demo on Vimeo](https://img.shields.io/badge/Vimeo-Watch%20Official%20Demo%20Video-1AB7EA?style=for-the-badge&logo=vimeo&logoColor=white)](https://vimeo.com/1231786894)
 
 ### 🔑 In-App Judge Access Code (Free Lifetime Unlock)
 Judges can evaluate all Guardian and Pioneer capabilities without entering a credit card or billing credentials:
