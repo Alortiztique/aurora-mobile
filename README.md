@@ -97,9 +97,9 @@ Integrated with the latest `react-native-purchases` and `react-native-purchases-
 
 ## 📸 App Interface Showcase
 
-| 1. Neural Clarity & Recovery | 2. Somatosensory Urge Shield | 3. Collective Urban Map | 4. RevenueCat Patron Paywall |
+| 1. Neural Clarity & Agency | 2. Sovereign Habit Shield | 3. Collective Urban Map | 4. RevenueCat Patron Paywall |
 | :---: | :---: | :---: | :---: |
-| <img src="store-assets/screenshot-1-clarity-en-1179x2556.png" width="200" alt="Clarity" /> | <img src="store-assets/screenshot-2-shield-en-1179x2556.png" width="200" alt="Shield" /> | <img src="store-assets/screenshot-3-map-en-1179x2556.png" width="200" alt="Map" /> | <img src="store-assets/screenshot-4-patron-en-1179x2556.png" width="200" alt="Paywall" /> |
+| <img src="store-assets/screenshot-1-clarity-en-1179x2556.png" width="200" alt="Neural Clarity & Agency" /> | <img src="store-assets/screenshot-2-shield-en-1179x2556.png" width="200" alt="Sovereign Habit Shield" /> | <img src="store-assets/screenshot-3-map-en-1179x2556.png" width="200" alt="Collective Urban Map" /> | <img src="store-assets/screenshot-4-patron-en-1179x2556.png" width="200" alt="RevenueCat Patron Paywall" /> |
 
 ---
 
